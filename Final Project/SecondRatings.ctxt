@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=SecondRatings
+comment1.params=
+comment1.target=SecondRatings()
+comment10.params=in
+comment10.target=void\ sortByAVerage(java.util.ArrayList)
+comment2.params=moviefile\ ratingsfile
+comment2.target=SecondRatings(java.lang.String,\ java.lang.String)
+comment3.params=id
+comment3.target=java.lang.String\ getTitre(java.lang.String)
+comment4.params=title
+comment4.target=java.lang.String\ getID(java.lang.String)
+comment5.params=myMovies
+comment5.target=int\ getMovieSize(java.util.ArrayList)
+comment6.params=myRaters
+comment6.target=int\ getRaterSize(java.util.HashMap)
+comment7.params=id\ minimalRaters
+comment7.target=double\ getAverageByID(java.lang.String,\ int)
+comment8.params=minimalRaters
+comment8.target=java.util.ArrayList\ getAverageRatings(int)
+comment9.params=ratingData\ from
+comment9.target=int\ getLargest(java.util.ArrayList,\ int)
+comment9.text=\r\n\ public\ ArrayList\ <Rating>\ getAverageRatings(Filter\ f,\ int\ minimalRaters)\r\n\ ArrayList\ <Rating>\ list\ \=\ new\ ArrayList\ <Rating>();\r\n\ ArrayList\ <String>\ movies\ \=\ MovieDatabase.filterBy(f);\r\n\ for\ (String\ id\ \:\ movies)\ {\r\n\ \ Calculate\ average\r\n\ }\r\n
+numComments=11
